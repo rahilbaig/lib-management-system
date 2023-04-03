@@ -1,0 +1,53 @@
+.user{
+    background: linear-gradient(rgba(5, 5, 5, 0.7),rgba(0,0,0,0.7)) ,url("https://wallpaperaccess.com/full/5487841.jpg");
+    background-size: cover;
+    height: 575px;
+   color: white;
+   padding: 60px;
+}
+.frrm{
+   border: 1px solid black;
+   box-shadow: 0 0 20px black;
+   height: 350px;
+   width: 350px;
+   margin-left: 36.5%;
+   margin-top: 40px;
+   background-color: rgba(103, 78, 78, 0.433);
+   padding: 25px;
+   border-radius: 30px ;
+ 
+}
+.frrm h3{
+    font-size: 40px;
+}
+.us h1{
+    text-align: center;
+   margin-bottom: 0px;
+   font-size: 60px;
+   margin-top: 0px;
+}
+.frrm input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 350px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(203, 197, 197, 0);
+    border-bottom: 1px solid white;
+}
+.frrm input:focus{
+    outline: none;
+}
+.frrm a{
+    text-decoration: none;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+}
+.frrm a:hover{
+    text-shadow:0 0 20px rgb(64, 255, 0);
+}

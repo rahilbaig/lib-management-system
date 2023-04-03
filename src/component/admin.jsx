@@ -1,4 +1,5 @@
 import '../styles/admin.css'
+import { Link } from 'react-router-dom';
 const Admin = () => {
     return ( 
         <div className="admin">
@@ -10,7 +11,7 @@ const Admin = () => {
             <h3>SIGN IN</h3>
                 <input placeholder="User name" type="email" /> <br />
                 <input placeholder="Password" type="password" /> <br />
-                <button>Login</button>
+                <Link to="">LOGIN</Link>
             </form>
            </div>
         </div>

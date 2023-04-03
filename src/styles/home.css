@@ -1,0 +1,34 @@
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.707)), url("https://wallpaper-house.com/data/out/8/wallpaper2you_231950.jpg");
+    background-size: cover;
+    height: 576px;
+    color: white;
+    padding: 60px;
+    margin: 0px;
+}
+.hh a{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 80px;
+    width: 200px;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.hh{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.hh a:hover{
+    box-shadow: 0 0 20px rgb(50, 255, 50);
+    background-color:  rgb(50, 255, 50);
+    color: black;
+    border: none;
+}
+.hh h1{
+    font-size: 80px;
+}
