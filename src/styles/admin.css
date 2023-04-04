@@ -39,16 +39,23 @@
 .frm input:focus{
     outline: none;
 }
-.frm a{
-    text-decoration: none;
-    color: white;
-    margin-top: 100px;
-    position: relative;
-    top: 30px;
-    font-size: 18px;
-}
 .frm h3{
     margin-top: 0px;
     font-weight: bolder;
     font-size: 30px;
+}
+.frm button{
+    color: white;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    background-color: transparent;
+}
+.frm button:hover{
+    color: black;
+    border: none;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px lawngreen;
 }

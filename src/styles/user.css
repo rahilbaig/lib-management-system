@@ -40,14 +40,18 @@
 .frrm input:focus{
     outline: none;
 }
-.frrm a{
-    text-decoration: none;
+.frrm button{
     color: white;
-    margin-top: 100px;
     position: relative;
     top: 30px;
     font-size: 18px;
+    border: 1px solid white;
+    padding: 8px 16px;
+    background-color: transparent;
 }
-.frrm a:hover{
-    text-shadow:0 0 20px rgb(64, 255, 0);
+.frrm button:hover{
+    color: black;
+    border: none;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px lawngreen;
 }
