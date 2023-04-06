@@ -1,0 +1,7 @@
+.adminhome{
+    background: linear-gradient(rgba(0, 0, 0, 0.581),rgba(0, 0, 0, 0.663)),url("https://img.freepik.com/free-photo/flat-lay-work-space-with-coffee-cup-keyboard_23-2148397861.jpg?w=996&t=st=1680774287~exp=1680774887~hmac=ea1902e73ce6f2f6b2a9e1b4a02b0f2d185a47cd9ca8d0c568fc8d1971e0cd7b");
+    background-size: cover;
+    height: 100vh;
+    margin-left: 18%;
+    width: 100%;
+}

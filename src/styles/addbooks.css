@@ -1,0 +1,38 @@
+.ljk{
+    background: linear-gradient(rgba(0, 0, 0, 0.581),rgba(0, 0, 0, 0.663)),url("https://img.freepik.com/free-photo/flat-lay-work-space-with-coffee-cup-keyboard_23-2148397861.jpg?w=996&t=st=1680774287~exp=1680774887~hmac=ea1902e73ce6f2f6b2a9e1b4a02b0f2d185a47cd9ca8d0c568fc8d1971e0cd7b");
+    background-size: cover;
+    height: 100vh;
+    margin-left: 18%;
+    width: 100%;
+}
+.addbooks{
+    height: 400px;
+    width: 400px;
+    margin-left: 350px;
+    text-align: center;
+    margin-top: 150px;
+    border: 1px solid white;
+    padding: 30px;
+}
+h1{
+    color: white;
+}
+.bnbn{
+    display: flex;
+    flex-direction: column;
+}
+.bnbn input{
+    height: 30px;
+    width: 350px;
+    margin: 15px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.bnbn button{
+    height: 30px;
+    width:120px ;
+    color: white;
+    margin-top: 20px;
+    background-color: transparent;
+}

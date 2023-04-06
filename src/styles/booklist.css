@@ -1,0 +1,30 @@
+.booklist{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18%;
+    justify-content: space-evenly;
+    background-size: cover;
+    background: linear-gradient(rgba(164, 25, 25, 0.316),rgba(0, 0, 0, 0.371));
+}
+.bookdata{
+    margin: 20px;
+    border: 1px solid black;
+    box-shadow: 0 0 30px rgba(6, 25, 33, 0.751);
+}
+.bookdata h1{
+    font-size: 15px;
+    margin: 7px;
+}
+.bookdata:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
+.bookdata{
+    
+    color: white;
+    background-color: black;
+}
+.bookdata p{
+    margin: 7px;
+    color: lavender;
+}

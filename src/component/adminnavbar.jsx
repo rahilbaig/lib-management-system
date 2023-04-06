@@ -1,31 +1,33 @@
 import { Link } from "react-router-dom";
+import '../styles/adminnavbar.css'
 const AdminNavbar = () => {
     let links=[
-        {likadm:"DashBoard"},
-        {likadm:"Add User"},
-        {likadm:"Add Book"},
-        {likadm:"Book List"},
-        {likadm:"User List"}
+        {likadm:"DashBoard",lik:"/admin/"},
+        {likadm:"Add User",lik:"/admin/add-user"},
+        {likadm:"Add Book",lik:"/admin/add-books"},
+        {likadm:"Book List",lik:"/admin/book-list"},
+        {likadm:"User List",lik:"/admin/"}
     ]
     return ( 
         <div className="adminNavbar">
             <div className="adminnav">
-                <h1>Admin</h1>
-                <p>usermail</p>
+                <Link to={"/"}>Admin</Link>
+                <p > <u>admin@gmail.com</u> </p>
             </div>
             <div className="lis">
                 {
                     links.map((data)=>{
                         return(
                             <div className="zszs">
-                                <Link>{data.likadm}</Link>
+                                <Link to={data.lik}>{data.likadm}</Link>
                             </div>
                         )
                     })
                 }
             </div>
-            <div className="logo">
-                <h3>LOG OUT</h3>
+            <div className="logou">
+                <hr style={{widows:"100%"}} /> <br />
+                <a href="/admin-login">LOG OUT</a>
             </div>
         </div>
      );
