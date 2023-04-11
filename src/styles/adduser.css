@@ -4,7 +4,7 @@
     height: 100vh;
     margin-left: 18%;
     width: 100%;
-   
+    
 }
 .adduser{
     margin-left:30%;
@@ -27,6 +27,7 @@
     flex-direction: column;
 }
 .useee input{
+    color: white;
     margin: 20px 0px;
     height: 30px;
     width: 400px;

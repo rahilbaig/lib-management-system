@@ -6,7 +6,7 @@ const AdminNavbar = () => {
         {likadm:"Add User",lik:"/admin/add-user"},
         {likadm:"Add Book",lik:"/admin/add-books"},
         {likadm:"Book List",lik:"/admin/book-list"},
-        {likadm:"User List",lik:"/admin/"}
+        {likadm:"User List",lik:"/admin/user-list"}
     ]
     return ( 
         <div className="adminNavbar">

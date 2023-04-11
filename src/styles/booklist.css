@@ -28,3 +28,17 @@
     margin: 7px;
     color: lavender;
 }
+.bookdata button{
+    padding: 8px 16px;
+    background-color: grey;
+    margin-left: 12px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.bookdata button:hover{
+    color: black;
+    background-color: lawngreen;
+    box-shadow: 0 0 20 lawngreen;
+    
+}

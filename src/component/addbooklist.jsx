@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import '../styles/addbooks.css'
+import { useNavigate } from 'react-router-dom';
 const Addbooks = () => {
+  let navigate=useNavigate()
   let title=useRef(null)
   let author=useRef(null)
   let description=useRef(null)
@@ -16,10 +18,12 @@ const Addbooks = () => {
           imageLink:imageLink.current.value
         }
     fetch("http://localhost:4000/books",{
-    method:'Post',
-    headers:{'context-type':'application/JSON'},
-    body:JSON.stringify(data)
+      method:"POST",
+      headers:{'content-type':'application/json'},
+      body:JSON.stringify(data)
   })
+  alert("book added")
+  navigate("/admin")
   }
 
   
@@ -33,7 +37,7 @@ const Addbooks = () => {
                 <input ref={author} placeholder="Author" type="text" />
                 <input ref={description} placeholder="description" type="text" />
                 <input ref={imageLink} placeholder="imageLink" type="text" />
-                <button>Add Books</button>
+                <button onClick={submit} >Add Books</button>
                 </form>
             </div>
         </div>

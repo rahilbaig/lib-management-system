@@ -1,0 +1,19 @@
+.userlisr{
+    margin-left: 20%;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gdd{
+    background-color: black;
+    color: white;
+    height:100px;
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 0 0 30px black;
+}
+.gdd h2{
+    margin-bottom: 10px;
+}
